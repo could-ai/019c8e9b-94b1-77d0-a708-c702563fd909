@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../data/book_content.dart';
+import 'data/book_content.dart';
 
 class BookScreen extends StatefulWidget {
   const BookScreen({super.key});
@@ -183,7 +183,7 @@ class _BookScreenState extends State<BookScreen> {
           const SizedBox(height: 40),
           Center(
             child: Icon(
-              Icons.lotus, // Decorative icon at bottom of page
+              Icons.spa, // Replaced invalid Icons.lotus with Icons.spa
               color: Colors.grey[300],
               size: 40,
             ),
